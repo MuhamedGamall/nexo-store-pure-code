@@ -1,2 +1,2 @@
-# nexo.gethub.io
+# nexo.github.io
 first web site
