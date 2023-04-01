@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+  </head>
+  <body>
+    <div class="overlayFev"></div>
+    <div class="overlayCart"></div>
+    <header class="headerTwo">
+      <div class="container">
+        <div class="header-content">
+          <a class="logo" href="/html/home.html">Nexo</a>
+          <nav>
+            <ul id="links">
+              <li><a id="link" href="/html/register.html">Sign Up</a></li>
+              <li><a id="link" href="/html/login.html">Log In </a></li>
+            </ul>
+            <ul id="userBox">
+              <li><a  class="logOut" id="link">Log Out</a></li>
+              <i class="fa-regular fa-heart myfevorite"></i>
+              <div class="countBox">
+                <i class="fa-solid fa-bag-shopping myCart"></i>
+                <span class="count">0</span>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="profile">
+      <div class="container">
+        <div class="profile-data">
+          <div class="details-profile">
+            <div class="userImg">
+              <img src="" alt="" />
+              <label for="uploadFile" class="upload">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+              </label>
+              <input type="file" id="uploadFile" />
+            </div>
+            <div class="text">
+              <h3 class="username"></h3>
+              <h5 class="email"></h5>
+              <div
+                class="myPass"
+                style="display: flex; gap: 15px; align-items: center"
+              >
+                <h5 class="pass">Password:</h5>
+                <i
+                  class="fa-solid fa-eye"
+                  style="
+                    font-size: 10px;
+                    color: rgba(15, 15, 151, 0.527);
+                    cursor: pointer;
+                  "
+                ></i>
+              </div>
+              <form action="">
+                <div class="inputEdit"></div>
+                <div
+                  style="display: flex; justify-content: flex-end; gap: 20px"
+                >
+                  <div class="edit btn">Edit Profile</div>
+                  <input
+                    type="submit"
+                    value="Save"
+                    class="save btn"
+                    style="display: none"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+              distinctio vero voluptatem architecto exercitationem, harum at,
+              consequatur quo blanditiis soluta ex sit quas quasi officia
+              perspiciatis quidem accusantium quos voluptatibus?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="cartMenu">
+        <div class="title">
+          <div class="contItems">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="contItemsSpan">0</span>
+            Items
+          </div>
+          <div class="total">0</div>
+          <div class="close">close</div>
+        </div>
+        <div class="content"></div>
+        <div class="btn">
+          <a href="/html/cartPage.html">
+            <button id="viewCartBtn">View Cart</button>
+          </a>
+        </div>
+        <a href="/html/home.html">
+          <div class="cartBagEmpty">
+            <h5>BAG EMPTY</h5>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>Shopping Now</span>
+          </div>
+        </a>
+      </div>
+      <div class="fevoriteMenu">
+        <div class="title">
+          <div class="contItems">
+            <i class="fa-solid fa-heart"></i>
+            <span class="contfevorite">0</span>
+            Items
+          </div>
+          <div class="close">close</div>
+        </div>
+        <div class="content"></div>
+        <a href="/html/home.html">
+          <div class="fevBagEmpty">
+            <h5>BAG EMPTY</h5>
+            <i class="fa-solid fa-heart-crack"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="boxLinks">
+            <ul class="columan">
+              <li>GIFT CARDS</li>
+              <li>PROMOTIONS</li>
+              <li>FIND A STORE</li>
+              <li>SIGN UP FOR EMAIL</li>
+              <li>BECOME A MEMBER</li>
+              <li>NIKE JOURNAL</li>
+              <li>SEND US FEEDBACK</li>
+            </ul>
+            <ul class="columan">
+              <li>GET HELP</li>
+              <li>Order Status</li>
+              <li>Shipping and Delivery</li>
+              <li>Returns</li>
+              <li>Payment Options</li>
+              <li>Gift Card Balance</li>
+              <li>Contact Us</li>
+            </ul>
+            <ul class="columan">
+              <li>ABOUT Nexo</li>
+              <li>News</li>
+              <li>Careers</li>
+              <li>Investors</li>
+              <li>Purpose</li>
+              <li>Sustainability</li>
+            </ul>
+          </div>
+          <div class="boxMedia">
+            <div class="logo">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <ul class="morelinks">
+          <li>Guides</li>
+          <li>Terms of Sale</li>
+          <li>Terms of Use</li>
+          <li>Nike Privacy Policy</li>
+          <li>Your Privacy Choices</li>
+        </ul>
+        <div class="rights">
+          <div>
+            <div class="site">
+              <i class="fa-solid fa-location-dot"></i>Egypt
+            </div>
+            <p>&copy; 2023 Nexo, Inc. All Rights Reserved</p>
+          </div>
+          <p>CA Supply Chains Act</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/allGlobalVariples.js"></script>
+    <script src="/js/profile.js"></script>
+    <script src="/js/user.js"></script>
+  </body>
+</html>

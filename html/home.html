@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="overlayCart"></div>
+    <div class="overlayFev"></div>
+    <div class="overlayMegaMenu"></div>
+    <header class="headerOne">
+      <div class="container">
+        <div class="info">
+          <div class="logo">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <h5>FREE SHIPPING THIS WEEK ORDER OVER - $55</h5>
+        </div>
+      </div>
+    </header>
+    <header class="headerTwo">
+      <div class="container">
+        <div class="header-content">
+          <a class="logo" href="/html/home.html">Nexo</a>
+          <input type="search" id="search" placeholder="Search By Name..." />
+          <nav>
+            <ul id="links" class="allLinks">
+              <li><a class="logOut" id="link"></a></li>
+              <li><a id="link" href="/html/register.html">Sign Up</a></li>
+              <li><a id="link" href="/html/login.html">Log In </a></li>
+            </ul>
+            <div id="userBox" class="homeLinks">
+              <a href="/html/profile.html" id="user">
+                <i class="fa-regular fa-user"></i>
+              </a>
+              <i class="fa-regular fa-heart myfevorite"></i>
+              <div class="countBox">
+                <i class="fa-solid fa-bag-shopping myCart"></i>
+                <span class="count">0</span>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="slider">
+      <div class="container">
+        <div class="content-slider has-scrollbar">
+          <div class="images">
+            <div class="item">
+              <img src="/image/6.webp" alt="" />
+            </div>
+            <div class="item">
+              <img src="/image/5.webp" alt="" />
+            </div>
+            <div class="item">
+              <img src="/image/3.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/image/1.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/image/2.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/image/4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="sortingItems">
+      <div class="container">
+        <div class="category">
+          <p>Football Cleats & Shoes (<span class="count">0</span>)</p>
+          <h5>
+            <div
+              class="sortingPrice"
+              style="text-align: right; cursor: pointer"
+            >
+              Sort By
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="sort">
+              <ul class="menu off">
+                <li class="srt" data-srt="highLow">Price: High-Low</li>
+                <li class="srt" data-srt="lowHigh">Price: Low-High</li>
+              </ul>
+            </div>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="myContent">
+      <div class="container">
+        <div class="sideBar">
+          <div class="content">
+            <div class="filterPrice">
+              <h4>Shop by Price</h4>
+              <div class="inputs">
+                <div class="row">
+                  <input
+                    id="zero"
+                    type="radio"
+                    name="on"
+                    class="price"
+                    data-price="0_1000000000000000"
+                    checked
+                  />
+                  <label for="zero">All</label>
+                </div>
+                <div class="row">
+                  <input
+                    id="one"
+                    type="radio"
+                    name="on"
+                    class="price"
+                    data-price="0_120"
+                  />
+                  <label for="one">$0-$120</label>
+                </div>
+                <div class="row">
+                  <input
+                    id="two"
+                    type="radio"
+                    name="on"
+                    class="price"
+                    data-price="120_300"
+                  />
+                  <label for="two">$120-$300</label>
+                </div>
+                <div class="row">
+                  <input
+                    id="three"
+                    type="radio"
+                    name="on"
+                    class="price"
+                    data-price="300_500"
+                  />
+                  <label for="three">$300-$500</label>
+                </div>
+                <div class="row">
+                  <input
+                    id="four"
+                    type="radio"
+                    name="on"
+                    class="price"
+                    data-price="500_1000000000000000"
+                  />
+                  <label for="four">$500-more</label>
+                </div>
+              </div>
+            </div>
+            <div class="filterColor">
+              <h4>Colors</h4>
+              <div class="grid">
+                <div class="box">
+                  <input id="a" type="radio" name="color" checked />
+                  <label for="a" class="allClrs clrbk" id="allData"></label>
+                  <span>All</span>
+                </div>
+                <div class="box">
+                  <input id="b" type="radio" name="color" />
+                  <label for="b" class="clr clrbk" data-clr="White"></label>
+                  <span>White</span>
+                </div>
+                <div class="box">
+                  <input id="c" type="radio" name="color" />
+                  <label for="c" class="clr clrbk" data-clr="Black"></label>
+                  <span>Black</span>
+                </div>
+                <div class="box">
+                  <input id="d" type="radio" name="color" />
+                  <label for="d" class="clr clrbk" data-clr="Yellow"></label>
+                  <span>Yellow</span>
+                </div>
+                <div class="box">
+                  <input id="e" type="radio" name="color" />
+                  <label for="e" class="clr clrbk" data-clr="Grey"></label>
+                  <span>Grey</span>
+                </div>
+                <div class="box">
+                  <input id="f" type="radio" name="color" />
+                  <label for="f" class="clr clrbk" data-clr="Orange"></label>
+                  <span>Orange</span>
+                </div>
+                <div class="box">
+                  <input id="g" type="radio" name="color" />
+                  <label for="g" class="clr clrbk" data-clr="Red"></label>
+                  <span>Red</span>
+                </div>
+                <div class="box">
+                  <input id="k" type="radio" name="color" />
+                  <label for="k" class="clr clrbk" data-clr="Pink"></label>
+                  <span>Pink</span>
+                </div>
+                <div class="box">
+                  <input id="l" type="radio" name="color" />
+                  <label for="l" class="clr clrbk" data-clr="Purple"></label>
+                  <span>Purple</span>
+                </div>
+                <div class="box">
+                  <input id="m" type="radio" name="color" />
+                  <label for="m" class="clr clrbk" data-clr="Blue"></label>
+                  <span>Blue</span>
+                </div>
+                <div class="box">
+                  <input id="n" type="radio" name="color" />
+                  <label for="n" class="clr clrbk" data-clr="Gold"></label>
+                  <span>Gold</span>
+                </div>
+                <div class="box">
+                  <input id="p" type="radio" name="color" />
+                  <label for="p" class="clr clrbk" data-clr="Silver"></label>
+                  <span>Silver</span>
+                </div>
+                <div class="box">
+                  <input id="q" type="radio" name="color" />
+                  <label
+                    for="q"
+                    class="clr Flamboyant clrbk"
+                    data-clr="Flamboyant"
+                  ></label>
+                  <span>Flamboyant</span>
+                </div>
+              </div>
+            </div>
+            <button class="searchBtn">save</button>
+          </div>
+        </div>
+        <div class="contentGrid"></div>
+      </div>
+      <div class="cartMenu">
+        <div class="title">
+          <div class="contItems">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="contItemsSpan">0</span>
+            Items
+          </div>
+          <div class="total">0</div>
+          <div class="close">close</div>
+        </div>
+        <div class="content"></div>
+        <div class="btn">
+          <a href="/html/cartPage.html">
+            <button id="viewCartBtn">View Cart</button>
+          </a>
+        </div>
+        <a href="/html/home.html">
+          <div class="cartBagEmpty">
+            <h5>BAG EMPTY</h5>
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span>Shopping Now</span>
+          </div>
+        </a>
+      </div>
+      <div class="fevoriteMenu">
+        <div class="title">
+          <div class="contItems">
+            <i class="fa-solid fa-heart"></i>
+            <span class="contfevorite">0</span>
+            Items
+          </div>
+          <div class="close">close</div>
+        </div>
+        <div class="content"></div>
+        <a href="/html/home.html">
+          <div class="fevBagEmpty">
+            <h5>BAG EMPTY</h5>
+            <i class="fa-solid fa-heart-crack"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mobileNavegitionMenu">
+      <div id="userBox" class="btnsBar">
+        <i class="fa-regular fa-chart-bar openMenu"></i>
+        <a href="/html/profile.html" id="user" class="navMobileLink">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <i class="fa-regular fa-heart myfevorite navMobileLink"></i>
+        <div class="countBox navMobileLink">
+          <i class="fa-solid fa-bag-shopping myCart"></i>
+          <span class="count">0</span>
+        </div>
+      </div>
+    </div>
+    <div class="megaMenuBar">
+      <div class="header">
+        <div class="title">Filter</div>
+        <ul id="links" class="linksMenu">
+          <li><a id="link" href="/html/register.html">Sign Up</a></li>
+          <li><a id="link" href="/html/login.html">Log In </a></li>
+        </ul>
+        <div class="closeBtn">Close</div>
+      </div>
+      <div class="content">
+        <h4 style="margin-left: 10px">Shop by Price</h4>
+        <div class="filterPrice">
+          <div class="inputs">
+            <div class="row">
+              <input
+                id="qw"
+                type="radio"
+                name="price"
+                class="price"
+                data-price="0_1000000000000000"
+                checked
+              />
+              <label for="qw">All</label>
+            </div>
+            <div class="row">
+              <input
+                id="we"
+                type="radio"
+                name="price"
+                class="price"
+                data-price="0_120"
+              />
+              <label for="we">$0-$120</label>
+            </div>
+            <div class="row">
+              <input
+                id="er"
+                type="radio"
+                name="price"
+                class="price"
+                data-price="120_300"
+              />
+              <label for="er">$120-$300</label>
+            </div>
+            <div class="row">
+              <input
+                id="rt"
+                type="radio"
+                name="price"
+                class="price"
+                data-price="300_500"
+              />
+              <label for="rt">$300-$500</label>
+            </div>
+            <div class="row">
+              <input
+                id="ty"
+                type="radio"
+                name="price"
+                class="price"
+                data-price="500_1000000000000000"
+              />
+              <label for="ty">$500-more</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterColor">
+          <h4>Colors</h4>
+          <div class="grid">
+            <div class="box">
+              <input id="yu" type="radio" name="clr" checked />
+              <label for="yu" class="allClrs clrbk" id="allData"></label>
+              <span>All</span>
+            </div>
+            <div class="box">
+              <input id="ui" type="radio" name="clr" />
+              <label for="ui" class="clr clrbk" data-clr="White"></label>
+              <span>White</span>
+            </div>
+            <div class="box">
+              <input id="io" type="radio" name="clr" />
+              <label for="io" class="clr clrbk" data-clr="Black"></label>
+              <span>Black</span>
+            </div>
+            <div class="box">
+              <input id="op" type="radio" name="clr" />
+              <label for="op" class="clr clrbk" data-clr="Yellow"></label>
+              <span>Yellow</span>
+            </div>
+            <div class="box">
+              <input id="as" type="radio" name="clr" />
+              <label for="as" class="clr clrbk" data-clr="Grey"></label>
+              <span>Grey</span>
+            </div>
+            <div class="box">
+              <input id="df" type="radio" name="clr" />
+              <label for="df" class="clr clrbk" data-clr="Orange"></label>
+              <span>Orange</span>
+            </div>
+            <div class="box">
+              <input id="fg" type="radio" name="clr" />
+              <label for="fg" class="clr clrbk" data-clr="Red"></label>
+              <span>Red</span>
+            </div>
+            <div class="box">
+              <input id="gh" type="radio" name="clr" />
+              <label for="gh" class="clr clrbk" data-clr="Pink"></label>
+              <span>Pink</span>
+            </div>
+            <div class="box">
+              <input id="hj" type="radio" name="clr" />
+              <label for="hj" class="clr clrbk" data-clr="Purple"></label>
+              <span>Purple</span>
+            </div>
+            <div class="box">
+              <input id="jk" type="radio" name="clr" />
+              <label for="jk" class="clr clrbk" data-clr="Blue"></label>
+              <span>Blue</span>
+            </div>
+            <div class="box">
+              <input id="kl" type="radio" name="clr" />
+              <label for="kl" class="clr clrbk" data-clr="Gold"></label>
+              <span>Gold</span>
+            </div>
+            <div class="box">
+              <input id="zx" type="radio" name="clr" />
+              <label for="zx" class="clr clrbk" data-clr="Silver"></label>
+              <span>Silver</span>
+            </div>
+            <div class="box">
+              <input id="xc" type="radio" name="clr" />
+              <label
+                for="xc"
+                class="clr Flamboyant clrbk"
+                data-clr="Flamboyant"
+              ></label>
+              <span>Flamboyant</span>
+            </div>
+          </div>
+        </div>
+        <button class="searchBtn">save</button>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="content">
+          <div class="boxLinks">
+            <ul class="columan">
+              <li>GIFT CARDS</li>
+              <li>PROMOTIONS</li>
+              <li>FIND A STORE</li>
+              <li>SIGN UP FOR EMAIL</li>
+              <li>BECOME A MEMBER</li>
+              <li>NIKE JOURNAL</li>
+              <li>SEND US FEEDBACK</li>
+            </ul>
+            <ul class="columan">
+              <li>GET HELP</li>
+              <li>Order Status</li>
+              <li>Shipping and Delivery</li>
+              <li>Returns</li>
+              <li>Payment Options</li>
+              <li>Gift Card Balance</li>
+              <li>Contact Us</li>
+            </ul>
+            <ul class="columan">
+              <li>ABOUT Nexo</li>
+              <li>News</li>
+              <li>Careers</li>
+              <li>Investors</li>
+              <li>Purpose</li>
+              <li>Sustainability</li>
+            </ul>
+          </div>
+          <div class="boxMedia">
+            <div class="logo">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <ul class="morelinks">
+          <li>Guides</li>
+          <li>Terms of Sale</li>
+          <li>Terms of Use</li>
+          <li>Nike Privacy Policy</li>
+          <li>Your Privacy Choices</li>
+        </ul>
+        <div class="rights">
+          <div>
+            <div class="site">
+              <i class="fa-solid fa-location-dot"></i>Egypt
+            </div>
+            <p>&copy; 2023 Nexo, Inc. All Rights Reserved</p>
+          </div>
+          <p>CA Supply Chains Act</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/allGlobalVariples.js"></script>
+    <script src="/js/user.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 200,
+      });
+    </script>
+    <script src="/js/fevorite.js"></script>
+  </body>
+</html>
+<!--
+  <div class="item">
+  <div class="image">
+    <img src="/image/00ea13e685c525a2e0e28c63d02ba2a1.jpg" alt="" />
+  </div>
+  <div class="description">
+    <h4>Nike Football Shoes</h4>
+    <p class="info">Nike Zoom Mercurial Vapor 15 Elite KM FG</p>
+    <p class="rate"><i class="fa-solid fa-star"></i>9.5</p>
+  </div>
+</div>
+-->
+<!-- <div class="logo">
+  <i class="fa-brands fa-square-facebook"></i>
+  <i class="fa-brands fa-square-twitter"></i>
+  <i class="fa-brands fa-square-instagram"></i>
+  <i class="fa-brands fa-linkedin"></i>
+</div> -->

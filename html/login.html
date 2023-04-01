@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+  </head>
+  <body>
+    <header class="headerOne">
+      <div class="container">
+        <div class="info">
+          <div class="logo">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <h5>FREE SHIPPING THIS WEEK ORDER OVER - $55</h5>
+        </div>
+      </div>
+    </header>
+    <header class="headerTwo">
+      <div class="container">
+        <div class="header-content">
+          <a class="logo" href="/html/home.html">Nexo</a>
+          <nav>
+            <ul>
+              <li><a id="link" href="/html/register.html">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="form-content">
+      <form action="" class="myform">
+        <h2>Login User</h2>
+        <input
+          class="mail inpt"
+          type="email"
+          name="mail"
+          placeholder="Enter Email"
+          required
+        />
+        <input
+          class="pass inpt"
+          type="password"
+          name="pass"
+          placeholder="Enter Password"
+          required
+          minlength="4"
+          maxlength="20"
+        />
+        <img alt="" />
+        <h5 class="inputsFalse">
+          <i
+            class="fa-solid fa-circle-exclamation"
+            style="color: rgb(126, 26, 26); font-size: 18px"
+          ></i>
+          Password or email is incorrect
+        </h5>
+        <h5>Not Have Account <a href="/html/register.html"> Sign Up</a></h5>
+        <input class="btn" type="submit" value="Save" />
+      </form>
+    </section>
+    
+    <script src="/js/allGlobalVariples.js"></script>
+    <script src="/js/login.js"></script>
+  </body>
+</html>
