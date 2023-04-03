@@ -54,7 +54,7 @@ function addToFevorite(item) {
   } else {
     location.href = "html/login.html";
   }
-}
+} 
 
 // function draw Cart Menu
 function drawFevoriteMenu(Data) {
