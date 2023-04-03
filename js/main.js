@@ -153,7 +153,7 @@ function drawCartMenu(Data) {
     </div>
     <div class="image">
       <img
-        src="../${el.image_url}"
+        src="${el.image_url}"
         alt=""
       />
     </div>
