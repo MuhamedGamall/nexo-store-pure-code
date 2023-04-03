@@ -105,7 +105,7 @@ function drawContent(response) {
     </div>
   </div>
     `;
-  });
+  }); 
   myContent.innerHTML = product.join("");
   let myimg = document.querySelectorAll(".myimg");
   hoverImg(myimg);
