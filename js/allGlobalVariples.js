@@ -82,14 +82,3 @@ document.addEventListener("click", (Event) => {
   }
 });
 
-// function decrement and increment Qut product
-// document.addEventListener("click", handleDecrementAndIncrementQut);
-// function handleDecrementAndIncrementQut(Event) {
-//   let qutItems = document.querySelectorAll(".qut");
-//   if (Event.target.classList.contains("plus")) {
-//     qutItems.innerHTML++;
-//   }
-//   if (Event.target.classList.contains("minus")) {
-//     qutItems.innerHTML--;
-//   }
-// }

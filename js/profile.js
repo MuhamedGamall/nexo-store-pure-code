@@ -1,5 +1,5 @@
 usernameProfile.innerHTML = localStorage.username; 
-descriptionProfile.innerHTML = localStorage.descriptionProfile||" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis at,hic aut consequuntur cupiditate architecto, magnam accusantium repellat praesentium, molestias voluptas cumque omnis nam voluptate. Nulla porro sequi ex? Molestiae!"
+descriptionProfile.innerHTML = localStorage.descriptionProfile||""
 emailProfile.innerHTML = localStorage.mail;
 passProfile.innerHTML =
   "Password: " + String(localStorage.password).replace(/\w/g, "*");
@@ -63,7 +63,7 @@ function edit() {
     changeName.value = localStorage.username;
     changeMail.value = localStorage.mail;
     changePass.value = localStorage.password;
-    changeDescription.value = localStorage.descriptionProfile||" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis at,hic aut consequuntur cupiditate architecto, magnam accusantium repellat praesentium, molestias voluptas cumque omnis nam voluptate. Nulla porro sequi ex? Molestiae!"
+    changeDescription.value = localStorage.descriptionProfile || ""
     
   } else {
     location.href = "../html/login.html";
@@ -89,14 +89,13 @@ function save(Event) {
       localStorage.username = changeName.value.trim() || localStorage.username;
       localStorage.mail = changeMail.value.trim() || localStorage.mail;
       localStorage.password = changePass.value.trim() || localStorage.password;
-      localStorage.descriptionProfile = changeDescription.value.trim() || localStorage.descriptionProfile;
+      localStorage.descriptionProfile = changeDescription.value.trim() || localStorage.descriptionProfile||''
       passProfile.innerHTML =
         "Password: " + String(localStorage.password).replace(/\w/g, "*");
       usernameProfile.innerHTML = localStorage.username;
       emailProfile.innerHTML = localStorage.mail;
-      descriptionProfile.innerHTML = localStorage.descriptionProfile||"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis at,hic aut consequuntur cupiditate architecto, magnam accusantium repellat praesentium, molestias voluptas cumque omnis nam voluptate. Nulla porro sequi ex? Molestiae!"
+      descriptionProfile.innerHTML = localStorage.descriptionProfile || " "
     }
-
     usernameProfile.style.display = "block";
     emailProfile.style.display = "block";
     passProfile.style.display = "block";
