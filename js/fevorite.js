@@ -63,7 +63,7 @@ function drawFevoriteMenu(Data) {
     <div class="item">
     <div class="image">
       <img
-        src="../${el.image_url}"
+        src="${el.image_url}"
         alt=""
       />
     </div>

@@ -44,7 +44,7 @@ function closeAndOpenCartMenu(Event) {
     overlayCart.style.display = "none";
   }
 }
- 
+
 function emptyMenusAction() {
   setTimeout(() => {
     cartBagEmpty.style.display =
@@ -84,11 +84,9 @@ function drawContent(response) {
     data-aos-anchor-placement="bottom-bottom"
     >
     <div class="image">
-      <img class='myimg' id='${i}' src="../${
-      el.image_url
-    }" alt="" data-hover='${el.image_details[0]}' data-origenl='${
-      el.image_url
-    }'>
+      <img class='myimg' id='${i}' src="${el.image_url}" alt="" data-hover='${
+      el.image_details[0]
+    }' data-origenl='${el.image_url}'>
       <div class="actionBtns">
       <a href="../html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
