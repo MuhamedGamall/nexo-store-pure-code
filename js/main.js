@@ -1,5 +1,5 @@
 // // let rand = [9.1,9.0,8.5,3.4,9.7,5.6,4.9,7.9,5.6,3.2,6.2,9.6,5.1,3.9,7.6,7.4,7.9,8.9,8.5,8.1,5.0,9.0,7.6,3.6,4.2,5.1][Math.floor(Math.random()*26)]
-// fetch("js/data.json").then((response) => {
+// fetch("../js/data.json").then((response) => {
 // 	return response.json();
 // })
 // .then((response) => {
@@ -61,7 +61,7 @@ function emptyMenusAction() {
 emptyMenusAction();
 
 // fetch data
-fetch("js/data.json")
+fetch("../js/data.json")
   .then((response) => {
     return response.json();
   })
@@ -88,7 +88,7 @@ function drawContent(response) {
       el.image_details[0]
     }' data-origenl='${el.image_url}'>
       <div class="actionBtns">
-      <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+      <a href="../html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
       })'></i></a>
       <i class="fa-solid fa-cart-plus" onclick = 'addToCart(${el.id})'></i>
@@ -135,7 +135,7 @@ function addToCart(item) {
     count();
     emptyMenusAction();
   } else {
-    location = "html/login.html";
+    location = "../html/login.html";
   }
 }
 
@@ -160,7 +160,7 @@ function drawCartMenu(Data) {
       <h5>Price: $${el.price}</h5>
       <p class="rate">
       <i class="fa-solid fa-star"></i>${el.rate}
-      <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+      <a href="../html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
       })'></i></a>
       </p>
@@ -234,7 +234,7 @@ function hoverImg(images) {
 function showDetails(item) {
   localStorage.setItem("detailsItem", item);
   setTimeout(() => {
-    location.href = "html/itemDetails.html";
+    location.href = "../html/itemDetails.html";
   }, 250);
 }
 

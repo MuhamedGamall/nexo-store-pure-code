@@ -24,7 +24,7 @@ function logOut() {
     userBox.style.display = "none";
     navMobileLinks.forEach((el) => (el.style.display = "none"));
     localStorage.clear();
-    location.href = "html/register.html";
+    location.href = "../html/register.html";
   };
 }
 logOut();

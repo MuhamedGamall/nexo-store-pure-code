@@ -12,5 +12,5 @@ function saveData(Event) {
   localStorage.setItem("username", username.value.trim());
   localStorage.setItem("mail", mail.value.trim());
   inputs.forEach((el) => (el.value = ""));
-  location.href = "html/login.html";
+  location.href = "../html/login.html";
 }
