@@ -212,4 +212,3 @@ function showDetails(item) {
     location.href = "html/itemDetails.html";
   }, 250);
 }
- 

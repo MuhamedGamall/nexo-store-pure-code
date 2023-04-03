@@ -382,7 +382,7 @@ function removeItem(item) {
   )
     ? "REMOVE TO BAG"
     : "ADD TO BAG";
-  count.style.display = "block";
+    countProducts.style.display = "block";
   totalPrice();
   drawCartMenu(myChossenProducts);
   emptyMenusAction();
