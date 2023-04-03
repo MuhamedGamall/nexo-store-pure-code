@@ -135,7 +135,7 @@ function addToCart(item) {
     count();
     emptyMenusAction();
   } else {
-    location = "../html/login.html";
+    location.href = "../html/login.html";
   }
 }
 
