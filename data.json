@@ -9,8 +9,8 @@
     "price": "600",
     "release_date": "2022-01-14",
     "description":"Like Cristiano Ronaldo, azulejo tiles are a Portuguese national treasure. For the Nike Zoom Mercurial Vapor 15 Elite CR7, we took visual inspiration from the Portuguese icons to show what can be achieved when one dedicates themselves to the craft. Now loaded with a soccer-specific Zoom Air unit, you can put the pedal down in the waning minutes of a match—when it matters most.",
-    "image_url": ".image/worldCup.webp",
-    "image_details":[".image/nike-purple-cup/1.webp",".image/nike-purple-cup/2.webp",".image/nike-purple-cup/3.webp",".image/nike-purple-cup/4.webp",".image/nike-purple-cup/5.webp",".image/nike-purple-cup/6.webp",".image/nike-purple-cup/7.webp",".image/nike-purple-cup/8.webp"]
+    "image_url": "image/worldCup.webp",
+    "image_details":["image/nike-purple-cup/1.webp","image/nike-purple-cup/2.webp","image/nike-purple-cup/3.webp","image/nike-purple-cup/4.webp","image/nike-purple-cup/5.webp","image/nike-purple-cup/6.webp","image/nike-purple-cup/7.webp","image/nike-purple-cup/8.webp"]
   },
   {
     "brand": "Nike Mercurial Cristiano Ronaldo Vitórias 2016 Ballon Dor Boots Gold", 
@@ -22,8 +22,8 @@
     "price": "1000",
     "release_date": "2021-05-13",
     "description":"Celebrating Cristiano Ronaldo's insane 2016 and his fourth Ballon d'Or win, Nike just released a spectacular limited-edition Mercurial Superfly V called the Nike Mercurial Superfly CR7 Vitórias. The Nike Mercurial Superfly 5 Ronaldo Ballon d'Or cleats will be available to buy in January 2017.",
-    "image_url": ".image/nike-mercurial-superfly-cristiano-ronaldo-vitorias-2016-ballon-dor-boots-4.jpg",
-    "image_details":[".image/cr7-gold/1.webp",".image/cr7-gold/2.webp",".image/cr7-gold/3.webp",".image/cr7-gold/4.webp",".image/cr7-gold/4.webp",".image/cr7-gold/5.webp",".image/cr7-gold/6.jpg"]
+    "image_url": "image/nike-mercurial-superfly-cristiano-ronaldo-vitorias-2016-ballon-dor-boots-4.jpg",
+    "image_details":["image/cr7-gold/1.webp","image/cr7-gold/2.webp","image/cr7-gold/3.webp","image/cr7-gold/4.webp","image/cr7-gold/4.webp","image/cr7-gold/5.webp","image/cr7-gold/6.jpg"]
   },
   
   {
@@ -36,8 +36,8 @@
     "price": "250",
     "release_date": "2021-01-14",
     "description":"ust named the player of the year for 2015 by FIFA, American soccer star Carli Lloyd is at the top of the soccer world in more ways than one. She also just got gifted by Nike with her very own special edition of the Mercurial Superfly cleat. Inspired by Lloyd’s superstar play, relentless training, and eight years as one of Nike’s soccer’s most successful athletes, the “Leave Your Legacy” boot was presented to Lloyd last week in Los Angeles, where Team USA is training for this summer’s global tournament in Brazil.",
-    "image_url": ".image/00ea13e685c525a2e0e28c63d02ba2a1.jpg",
-    "image_details":[".image/nike-blue-silver/1.jpg",".image/nike-blue-silver/2.jpg",".image/nike-blue-silver/3.jpg",".image/nike-blue-silver/4.webp",".image/nike-blue-silver/5.webp",".image/nike-blue-silver/6.webp"]
+    "image_url": "image/00ea13e685c525a2e0e28c63d02ba2a1.jpg",
+    "image_details":["image/nike-blue-silver/1.jpg","image/nike-blue-silver/2.jpg","image/nike-blue-silver/3.jpg","image/nike-blue-silver/4.webp","image/nike-blue-silver/5.webp","image/nike-blue-silver/6.webp"]
     
   },
   {
@@ -50,8 +50,8 @@
     "price": "360",
     "release_date": "2021-07-4",
     "description":"Cristiano Ronaldo has a new personalized weapon of choice, as Nike today introduced an all new version of the Mercurial Superfly CR7. There is a sophisticated elegance about this latest release, with a shimmer effect added to the classic black Mercurial Superfly silhouette upper via a new iteration of NIKESKIN technology. It is subtle and extremely clean, yet it has that dramatic visual effect you’d expect from a Ronaldo boot.",
-    "image_url": ".image/431c3a0436a3e87674b1afaebae63d4f.jpg",
-    "image_details":[".image/cr7-black/1.jpg",".image/cr7-black/2.jpg",".image/cr7-black/3.webp",".image/cr7-black/4.webp",".image/cr7-black/5.jpg",".image/cr7-black/6.jpg",".image/cr7-black/7.jpg",".image/cr7-black/8.jpg"]
+    "image_url": "image/431c3a0436a3e87674b1afaebae63d4f.jpg",
+    "image_details":["image/cr7-black/1.jpg","image/cr7-black/2.jpg","image/cr7-black/3.webp","image/cr7-black/4.webp","image/cr7-black/5.jpg","image/cr7-black/6.jpg","image/cr7-black/7.jpg","image/cr7-black/8.jpg"]
   },
   {
     "brand": "Nike Vapor Edge Elite 360 2 NRG Rainbow", 
@@ -63,8 +63,8 @@
     "price": "360",
     "release_date": "2021-07-1",
     "description":"Create game-breaking separation that can make the difference between a modest gain and a house call in the Nike Vapor Edge Elite 360 2. Execute razor-sharp cuts at full speed with wide stud placements and an internal plate that creates flexible support. This version nods to pro football's annual scouting spectacle, where sleepers turn into rising stars. You’ve passed the eye test, now turn the heads that matter most in a design made to help get you to the next level.",
-    "image_url": ".image/49b1e1a1-0422-459b-8c50-b5ae19e958d0.webp",
-    "image_details":[".image/nike-rainbow/1.webp",".image/nike-rainbow/2.webp",".image/nike-rainbow/3.webp",".image/nike-rainbow/4.webp",".image/nike-rainbow/5.webp",".image/nike-rainbow/6.webp",".image/nike-rainbow/7.webp",".image/nike-rainbow/8.webp"]
+    "image_url": "image/49b1e1a1-0422-459b-8c50-b5ae19e958d0.webp",
+    "image_details":["image/nike-rainbow/1.webp","image/nike-rainbow/2.webp","image/nike-rainbow/3.webp","image/nike-rainbow/4.webp","image/nike-rainbow/5.webp","image/nike-rainbow/6.webp","image/nike-rainbow/7.webp","image/nike-rainbow/8.webp"]
   },
   {
     "brand": "Nike Mercurial Superfly 6 Elite SE FG Firm-Ground Soccer Cleats", 
@@ -76,8 +76,8 @@
     "price": "130",
     "release_date": "2021-05-13",
     "description":"If you like special shoes, and unique things, you'll love this Nike Superfly 6 Elite Ballon D'Or shoe celebrating Luka Modric. This win is a big one for the Croatian midfielder as he has managed to break the domination of CR7 and Leo over the award. You can get this shoe or the Vapor edition.",
-    "image_url": ".image/496f57c8e72cb4c9022afef69ffaeda8.jpg",
-    "image_details":[".image/nike-grey/1.jpeg",".image/nike-grey/2.jpeg",".image/nike-grey/3.jpeg",".image/nike-grey/4.webp",".image/nike-grey/5.webp",".image/nike-grey/7.jpeg",".image/nike-grey/6.jpeg",".image/nike-grey/8.jpeg"]
+    "image_url": "image/496f57c8e72cb4c9022afef69ffaeda8.jpg",
+    "image_details":["image/nike-grey/1.jpeg","image/nike-grey/2.jpeg","image/nike-grey/3.jpeg","image/nike-grey/4.webp","image/nike-grey/5.webp","image/nike-grey/7.jpeg","image/nike-grey/6.jpeg","image/nike-grey/8.jpeg"]
   },
   {
     "brand": "Nike Zoom Mercurial Vapor 15 Elite FG Yellow", 
@@ -89,8 +89,8 @@
     "price": "360",
     "release_date": "2021-05-17",
     "description":"The field is yours when you lace up in the Vapor 15 Elite FG. We added a Zoom Air unit, made specifically for soccer, and grippy texture up top for exceptional touch, so you can dominate in the waning minutes of a match—when it matters most. Feel the explosive speed as you race around the field, making the critical plays with velocity and pace. Fast is in the Air.",
-    "image_url": ".image/2a3c478f9e8735e9552cc9d7c309e342.webp",
-    "image_details":[".image/nike-yellow-cup/1.webp",".image/nike-yellow-cup/2.webp",".image/nike-yellow-cup/3.webp",".image/nike-yellow-cup/4.webp",".image/nike-yellow-cup/5.webp",".image/nike-yellow-cup/6.webp",".image/nike-yellow-cup/7.webp",".image/nike-yellow-cup/8.webp"]
+    "image_url": "image/2a3c478f9e8735e9552cc9d7c309e342.webp",
+    "image_details":["image/nike-yellow-cup/1.webp","image/nike-yellow-cup/2.webp","image/nike-yellow-cup/3.webp","image/nike-yellow-cup/4.webp","image/nike-yellow-cup/5.webp","image/nike-yellow-cup/6.webp","image/nike-yellow-cup/7.webp","image/nike-yellow-cup/8.webp"]
   },
   {
     "brand": "Nike Zoom Mercurial Vapor 15 Elite FG Blue", 
@@ -102,8 +102,8 @@
     "price": "1000",
     "release_date": "2021-01-14",
     "description":"The field is yours when you lace up in the Vapor 15 Elite FG. We added a Zoom Air unit, made specifically for soccer, and grippy texture up top for exceptional touch, so you can dominate in the waning minutes of a match—when it matters most. Feel the explosive speed as you race around the field, making the critical plays with velocity and pace. Fast is in the Air.",
-    "image_url": ".image/21ea96200f6d44517b739ae5d6eab7c0.webp",
-    "image_details":[".image/nike-blue-cup/1.webp",".image/nike-blue-cup/2.webp",".image/nike-blue-cup/3.webp",".image/nike-blue-cup/4.webp",".image/nike-blue-cup/5.webp",".image/nike-blue-cup/6.webp",".image/nike-blue-cup/7.webp",".image/nike-blue-cup/8.webp"]
+    "image_url": "image/21ea96200f6d44517b739ae5d6eab7c0.webp",
+    "image_details":["image/nike-blue-cup/1.webp","image/nike-blue-cup/2.webp","image/nike-blue-cup/3.webp","image/nike-blue-cup/4.webp","image/nike-blue-cup/5.webp","image/nike-blue-cup/6.webp","image/nike-blue-cup/7.webp","image/nike-blue-cup/8.webp"]
   },
   {
     "brand": "Nike Vapor Edge Elite 360 Premium Mens Football Cleats SZ 12 White", 
@@ -115,8 +115,8 @@
     "price": "120",
     "release_date": "2020-10-10",
     "description":"Engineered for speed, the Nike Vapor Edge Speed 360 offers a new degree of agility. Its internal plate gives you flexible support, while wide stud placements let you cut like never before",
-    "image_url": ".image/522f28d0958eab629f157dda596542e6.jpg",
-    "image_details":[".image/nike-white-orange/1.jpeg",".image/nike-white-orange/2.jpeg",".image/nike-white-orange/3.jpg",".image/nike-white-orange/4.jpeg",".image/nike-white-orange/5.jpeg"]
+    "image_url": "image/522f28d0958eab629f157dda596542e6.jpg",
+    "image_details":["image/nike-white-orange/1.jpeg","image/nike-white-orange/2.jpeg","image/nike-white-orange/3.jpg","image/nike-white-orange/4.jpeg","image/nike-white-orange/5.jpeg"]
   },
   {
     "brand": "Nike Mercurial Vapor 13 Elite Neymar Firm Ground Football Shoes CHROME/BLACK-RED", 
@@ -128,8 +128,8 @@
     "price": "120",
     "release_date": "2020-10-10",
     "description":"Nike Mercurial Vapor 13 Elite Neymar Firm Ground Football Shoes CHROME/BLACK-RED game-time performance to the next level with added support on the sides and a revamped plate that helps propel you forward while stabilizing each step. The wider cleat pattern grips the field from practically any angle—whether you're digging in for contact or exploding off the line.",
-    "image_url": ".image/57d2f381d88b147bc8f9bc3e13e8a476.jpg",
-    "image_details":[".image/nike-black-pink/1.webp",".image/nike-black-pink/2.webp",".image/nike-black-pink/3.jpeg",".image/nike-black-pink/4.webp",".image/nike-black-pink/5.webp",".image/nike-black-pink/6.jpeg",".image/nike-black-pink/7.jpeg",".image/nike-black-pink/8.webp"]
+    "image_url": "image/57d2f381d88b147bc8f9bc3e13e8a476.jpg",
+    "image_details":["image/nike-black-pink/1.webp","image/nike-black-pink/2.webp","image/nike-black-pink/3.jpeg","image/nike-black-pink/4.webp","image/nike-black-pink/5.webp","image/nike-black-pink/6.jpeg","image/nike-black-pink/7.jpeg","image/nike-black-pink/8.webp"]
   },
   {
     "brand": "Stunning Nike Mercurial Superfly VII & Vapor XIII 'Nuovo White Pack' Boots Released", 
@@ -141,8 +141,8 @@
     "price": "1000",
     "release_date": "2021-05-17",
     "description":"The Soccer Shoes Nike Mercurial Superfly Elite FG New Lights Pack are one of the novelties of the line football of Nike Football. This model, in the wake of the innovative Flyknit and 360° of the previous edition, combines a area Nike Aerotrak on the forefoot to a frame slightly stiffer for perfect traction.",
-    "image_url": ".image/5cd2b41cc64bbbd7c3d3b1b1d696741b.jpg",
-    "image_details":[".image/nike-white-fish/1.jpeg",".image/nike-white-fish/2.jpeg",".image/nike-white-fish/3.jpeg",".image/nike-white-fish/4.jpg",".image/nike-white-fish/5.jpeg",".image/nike-white-fish/6.jpeg",".image/nike-white-fish/7.jpeg",".image/nike-white-fish/8.jpeg",".image/nike-white-fish/9.jpeg"]
+    "image_url": "image/5cd2b41cc64bbbd7c3d3b1b1d696741b.jpg",
+    "image_details":["image/nike-white-fish/1.jpeg","image/nike-white-fish/2.jpeg","image/nike-white-fish/3.jpeg","image/nike-white-fish/4.jpg","image/nike-white-fish/5.jpeg","image/nike-white-fish/6.jpeg","image/nike-white-fish/7.jpeg","image/nike-white-fish/8.jpeg","image/nike-white-fish/9.jpeg"]
 
   }, 
 
@@ -156,8 +156,8 @@
     "price": "500",
     "release_date": "2021-01-14",
     "description":"Dropping in typical tournament pack style, Nike have delivered a blast of fresh white uppers on stunning premium plate finishes with distinctive hues to differentiate silos. A modern day upgrade on the EURO 2012 \"Clash Collection\" if you like. ",
-    "image_url": ".image/61a47d037cf9738fd0a7bb6675ee6657.jpg",
-    "image_details":[".image/nike-down-orange/1.jpg",".image/nike-down-orange/2.jpeg",".image/nike-down-orange/3.jpeg",".image/nike-down-orange/4.jpeg",".image/nike-down-orange/5.jpeg",".image/nike-down-orange/6.jpeg",".image/nike-down-orange/7.jpeg",".image/nike-down-orange/8.jpeg"]
+    "image_url": "image/61a47d037cf9738fd0a7bb6675ee6657.jpg",
+    "image_details":["image/nike-down-orange/1.jpg","image/nike-down-orange/2.jpeg","image/nike-down-orange/3.jpeg","image/nike-down-orange/4.jpeg","image/nike-down-orange/5.jpeg","image/nike-down-orange/6.jpeg","image/nike-down-orange/7.jpeg","image/nike-down-orange/8.jpeg"]
   },
   {
     "brand": "Nike Zoom Mercurial Vapor 15 Elite FG Bronze",
@@ -169,8 +169,8 @@
     "price": "130",
     "release_date": "2021-05-13",
     "description":"Celebrate the game’s biggest competition in a design ignited by the science of connectivity and gravity that the world stage inspires. A carbon fiber chrome plate complements a stunning futuristic look made for the feet of the globe’s greatest players. Loaded with a Zoom Air unit and grippy texture up top for exceptional touch, it helps you dominate in the waning minutes of a match—when it matters most.",
-    "image_url": ".image/7197d739e1fd6a3371fb34fd62473d03.jpeg",
-    "image_details":[".image/nike-bronze-cup/1.webp",".image/nike-bronze-cup/2.webp",".image/nike-bronze-cup/3.webp",".image/nike-bronze-cup/4.webp",".image/nike-bronze-cup/5.webp",".image/nike-bronze-cup/6.webp",".image/nike-bronze-cup/7.webp",".image/nike-bronze-cup/8.webp ",".image/nike-bronze-cup/9.webp"]
+    "image_url": "image/7197d739e1fd6a3371fb34fd62473d03.jpeg",
+    "image_details":["image/nike-bronze-cup/1.webp","image/nike-bronze-cup/2.webp","image/nike-bronze-cup/3.webp","image/nike-bronze-cup/4.webp","image/nike-bronze-cup/5.webp","image/nike-bronze-cup/6.webp","image/nike-bronze-cup/7.webp","image/nike-bronze-cup/8.webp ","image/nike-bronze-cup/9.webp"]
   },
   {
     "brand": "Nike Vapor Edge Elite 360 2 NRG Fire", 
@@ -182,8 +182,8 @@
     "price": "250",
     "release_date": "2023-01-14",
     "description":"Create game-breaking separation that can make the difference between a modest gain and a house call in the Nike Vapor Edge Elite 360 2. Execute razor-sharp cuts at full speed with wide stud placements and an internal plate that creates flexible support. With purplish and orange hues spread throughout.",
-    "image_url": ".image/852e095be8d977f4e3805cd5381e51d5.webp",
-    "image_details":[".image/nike-fire/1.webp",".image/nike-fire/2.webp",".image/nike-fire/3.webp",".image/nike-fire/4.webp",".image/nike-fire/5.webp",".image/nike-fire/6.webp",".image/nike-fire/7.webp",".image/nike-fire/8.webp",".image/nike-fire/9.webp"]
+    "image_url": "image/852e095be8d977f4e3805cd5381e51d5.webp",
+    "image_details":["image/nike-fire/1.webp","image/nike-fire/2.webp","image/nike-fire/3.webp","image/nike-fire/4.webp","image/nike-fire/5.webp","image/nike-fire/6.webp","image/nike-fire/7.webp","image/nike-fire/8.webp","image/nike-fire/9.webp"]
 
   },
   {
@@ -196,8 +196,8 @@
     "price": "250",
     "release_date": "2023-01-14",
     "description":"  Fast by nature, the Nike Mercurial Superfly 8 Elite FG sees you sprinting away from the opposition with ease thanks to a new, more comfortable upper and an innovative soleplate that provides instant response. Its stripped-down design is inspired by the wings of a dragonfly.",
-    "image_url": ".image/8ab1c83c3fe91ffa422a5be000324c91.jpg",  
-    "image_details":[".image/nike-slick-color/1.jpeg",".image/nike-slick-color/2.jpeg",".image/nike-slick-color/3.jpeg",".image/nike-slick-color/4.jpeg",".image/nike-slick-color/5.jpeg",".image/nike-slick-color/6.jpeg",".image/nike-slick-color/7.jpeg",".image/nike-slick-color/8.jpeg"]
+    "image_url": "image/8ab1c83c3fe91ffa422a5be000324c91.jpg",  
+    "image_details":["image/nike-slick-color/1.jpeg","image/nike-slick-color/2.jpeg","image/nike-slick-color/3.jpeg","image/nike-slick-color/4.jpeg","image/nike-slick-color/5.jpeg","image/nike-slick-color/6.jpeg","image/nike-slick-color/7.jpeg","image/nike-slick-color/8.jpeg"]
 
   },
 
@@ -211,8 +211,8 @@
     "price": "120",
     "release_date": "2021-01-14",
     "description":"The Flyknit constructed upper of the Nike Jr. Superfly 6 Elite FG wraps your foot for an all-enveloping, second-skin-like fit straight out of the box. A 2-part podular plate system provides responsive traction at every step.",
-    "image_url": ".image/8c89cbf16613df6955f9ce1cba18a3f1.jpg",
-    "image_details":[".image/nike-grey-orange/1.jpeg",".image/nike-grey-orange/2.jpg",".image/nike-grey-orange/3.jpeg",".image/nike-grey-orange/4.jpeg",".image/nike-grey-orange/5.jpeg",".image/nike-grey-orange/6.jpeg",".image/nike-grey-orange/7.jpeg",".image/nike-grey-orange/8.jpeg",".image/nike-grey-orange/9.jpeg"]
+    "image_url": "image/8c89cbf16613df6955f9ce1cba18a3f1.jpg",
+    "image_details":["image/nike-grey-orange/1.jpeg","image/nike-grey-orange/2.jpg","image/nike-grey-orange/3.jpeg","image/nike-grey-orange/4.jpeg","image/nike-grey-orange/5.jpeg","image/nike-grey-orange/6.jpeg","image/nike-grey-orange/7.jpeg","image/nike-grey-orange/8.jpeg","image/nike-grey-orange/9.jpeg"]
   },
     
   {
@@ -225,8 +225,8 @@
     "price": "120",
     "release_date": "2021-05-13",
     "description":"When the game hangs in the balance, choose the Nike Vapor Edge Pro 360 2. A conventional lacing system complements a revamped upper, so that you can lock in and feel fully supported when kickoff comes.",
-    "image_url": ".image/9841067c-1c0d-42aa-9fe3-13c18577309d.webp",
-    "image_details":[".image/nike-fall-white/1.webp",".image/nike-fall-white/2.webp",".image/nike-fall-white/3.webp",".image/nike-fall-white/4.webp",".image/nike-fall-white/5.webp",".image/nike-fall-white/6.webp",".image/nike-fall-white/7.webp",".image/nike-fall-white/8.webp"]
+    "image_url": "image/9841067c-1c0d-42aa-9fe3-13c18577309d.webp",
+    "image_details":["image/nike-fall-white/1.webp","image/nike-fall-white/2.webp","image/nike-fall-white/3.webp","image/nike-fall-white/4.webp","image/nike-fall-white/5.webp","image/nike-fall-white/6.webp","image/nike-fall-white/7.webp","image/nike-fall-white/8.webp"]
   },
   {
     "brand": "Nike Mercurial Superfly V CR7 FG Soccer Green Shoe ", 
@@ -238,8 +238,8 @@
     "price": "360",
     "release_date": "2023-01-14",
     "description":"The third in a series of seven cleats chronicling Cristiano Ronaldo’s journey,Developed around the idea of a racecar fit, the Superfly V features a new V16 last, which is designed to engage the major metatarsal by shaping the outsole to the natural contours of your foot.",
-    "image_url": ".image/ab65ccd62ff61dd1abaddbde45050b4d.jpg",
-    "image_details":[".image/cr7-green/1.jpg",".image/cr7-green/2.jpeg",".image/cr7-green/3.jpeg",".image/cr7-green/4.jpeg",".image/cr7-green/5.jpeg",".image/cr7-green/6.jpeg"]
+    "image_url": "image/ab65ccd62ff61dd1abaddbde45050b4d.jpg",
+    "image_details":["image/cr7-green/1.jpg","image/cr7-green/2.jpeg","image/cr7-green/3.jpeg","image/cr7-green/4.jpeg","image/cr7-green/5.jpeg","image/cr7-green/6.jpeg"]
   },
   {
     "brand": "Nike Mercurial Superfly 7 Academy MDS MG 'Dream Speed - White Black'",
@@ -251,8 +251,8 @@
     "price": "500",
     "release_date": "2021-05-13",
     "description":"Dream Of Speed And Play Fast In The Nike Mercurial Vapor 13 Elite Mds Fg. A Streamlined Upper Combines With A Nike Aerotrak Zone For High-Speed Play And Supercharged Traction.",
-    "image_url": ".image/aed5b025d9f4ce3e0fc9efa49c1cf9dc.jpg",
-    "image_details":[".image/nike-line-grey/1.webp",".image/nike-line-grey/2.webp",".image/nike-line-grey/3.webp",".image/nike-line-grey/4.webp",".image/nike-line-grey/5.webp"]
+    "image_url": "image/aed5b025d9f4ce3e0fc9efa49c1cf9dc.jpg",
+    "image_details":["image/nike-line-grey/1.webp","image/nike-line-grey/2.webp","image/nike-line-grey/3.webp","image/nike-line-grey/4.webp","image/nike-line-grey/5.webp"]
   },
   {
     "brand": "NIKE VAPOR UNTOUCHABLE PRO 3 Gold",
@@ -264,8 +264,8 @@
     "price": "120",
     "release_date": "2022-01-14",
     "description":"The new Nike Vapor Untouchable Pro 3 Phantom Metallic Gold are this years MUST scoop for the upcoming season.",
-    "image_url": ".image/bf864c18c69a04adab70fd4364260ec4.jpg",
-    "image_details":[".image/nike-vapor-gold/1.jpg",".image/nike-vapor-gold/ 2 .jpg",".image/nike-vapor-gold/3.jpg",".image/nike-vapor-gold/4.jpg",".image/nike-vapor-gold/5.jpg"]
+    "image_url": "image/bf864c18c69a04adab70fd4364260ec4.jpg",
+    "image_details":["image/nike-vapor-gold/1.jpg","image/nike-vapor-gold/ 2 .jpg","image/nike-vapor-gold/3.jpg","image/nike-vapor-gold/4.jpg","image/nike-vapor-gold/5.jpg"]
   },
   {
     "brand": " Nike Mercurial Superfly 7 Elite Firm Ground Football Shoes, BLUE HERO/WHITE-VOLT-OBSIDIAN", 
@@ -277,8 +277,8 @@
     "price": "1000",
     "release_date": "2022-01-14",
     "description":"In the wake of the 6 360 degree flyknit innovation, the Nike Mercurial Superfly 7 elite fg shoe combines a nike aerotrak area on the forefoot and a slightly more rigid frame for exceptional traction. The flyknit construction wraps the foot 360 degrees for a perfect fit like a second skin. The new ultra-bust yarn and one-piece lining ensure a snug and secure fit on the field.",
-    "image_url": ".image/d6273a177531849f49cc29a656ac51f6.jpg",
-    "image_details":[".image/nike-blue/1.jpeg",".image/nike-blue/2.jpeg",".image/nike-blue/3.jpeg",".image/nike-blue/4.jpeg",".image/nike-blue/5.jpeg",".image/nike-blue/6.jpeg",".image/nike-blue/7.jpeg",".image/nike-blue/8.jpeg"]
+    "image_url": "image/d6273a177531849f49cc29a656ac51f6.jpg",
+    "image_details":["image/nike-blue/1.jpeg","image/nike-blue/2.jpeg","image/nike-blue/3.jpeg","image/nike-blue/4.jpeg","image/nike-blue/5.jpeg","image/nike-blue/6.jpeg","image/nike-blue/7.jpeg","image/nike-blue/8.jpeg"]
   },
   {
     "brand": "Nike Mercurial Superfly 8 Elite FG 'Dynamic Turquoise Lime Glow'",
@@ -290,8 +290,8 @@
     "price": "1000",
     "release_date": "2020-09-15",
     "description":"The Mercurial Vapor 14 Elite FG features a sporty minimalist design that uses minimal materials, so you can play fast from the first minute to the last match. The cushioned insole gives you lasting comfort, and the specially designed sole gives you instant response speed for quick recovery of the ball from opponents when running at high speed",
-    "image_url": ".image/ef987cbbb826b228c6efae9023b958f5.jpg",
-    "image_details":[".image/nike-lemon/1.webp",".image/nike-lemon/2.webp",".image/nike-lemon/3.webp",".image/nike-lemon/4.webp",".image/nike-lemon/5.webp"]
+    "image_url": "image/ef987cbbb826b228c6efae9023b958f5.jpg",
+    "image_details":["image/nike-lemon/1.webp","image/nike-lemon/2.webp","image/nike-lemon/3.webp","image/nike-lemon/4.webp","image/nike-lemon/5.webp"]
   },
   {
     "brand": "Nike CR7 x Mercurial Superfly 5 SE FG 'Blue Tint'",
@@ -303,8 +303,8 @@
     "price": "900",
     "release_date": "2023-01-14",
     "description":"The new Nike Mercurial Superfly V CR7 Cut to Brilliance football boots have been revealed this morning. Inspired by Cristiano Ronaldo's brilliance on the pitch, the Nike Mercurial Superfly CR7 Chapter 5 cleats are set to be available from September 29 2017.",
-    "image_url": ".image/fa2e7e1c3da8de7171af857e28c9f2f5.jpg",
-    "image_details":[".image/cr7-silver/1.jpg",".image/cr7-silver/2.webp",".image/cr7-silver/3.webp",".image/cr7-silver/4.png",".image/cr7-silver/5.png",".image/cr7-silver/6.webp",".image/cr7-silver/7.webp"]
+    "image_url": "image/fa2e7e1c3da8de7171af857e28c9f2f5.jpg",
+    "image_details":["image/cr7-silver/1.jpg","image/cr7-silver/2.webp","image/cr7-silver/3.webp","image/cr7-silver/4.png","image/cr7-silver/5.png","image/cr7-silver/6.webp","image/cr7-silver/7.webp"]
   },
   {
     "brand": "Nike Vapor Edge Speed 360 2 Black",
@@ -316,8 +316,8 @@
     "price": "450",
     "release_date": "2021-07-1",
     "description":"Find pay dirt or prevent your opponent from planting their flag in your protected, prized territory with pop in the Nike Vapor Edge Speed 360 2. Relish the low-top design built to handle high speeds and sudden stop-and-go movements that leave your opponent grasping at open air.",
-    "image_url": ".image/fb77d7c2-c628-4ed3-bfe7-e3d3c9c86edc.webp",
-    "image_details":[".image/nike-black/1.webp",".image/nike-black/2.webp",".image/nike-black/3.webp",".image/nike-black/4.webp",".image/nike-black/5.webp",".image/nike-black/6.webp",".image/nike-black/7.webp",".image/nike-black/8.webp"]
+    "image_url": "image/fb77d7c2-c628-4ed3-bfe7-e3d3c9c86edc.webp",
+    "image_details":["image/nike-black/1.webp","image/nike-black/2.webp","image/nike-black/3.webp","image/nike-black/4.webp","image/nike-black/5.webp","image/nike-black/6.webp","image/nike-black/7.webp","image/nike-black/8.webp"]
   },
   {
     "brand": "Nike Zoom Mercurial Dream Speed Vapor 15 Elite FG pink", 
@@ -329,7 +329,7 @@
     "price": "450",
     "release_date": "2021-07-4",
     "description":"Cristiano Ronaldo couldn’t chase his dream alone. Coaches, family members, role models have all helped mold him into the star he is today. Celebrate the people who have motivated you along the way. Floral-like lavender and electrifying yellows remind you to let inspirations know they’re loved and appreciated. A Zoom Air unit and grippy texture up top give you exceptional touch, so you can dominate in the waning minutes of a match—when it matters most.",
-    "image_url": ".image/fd379aa75b3811412be76196a0cc05b9.jpg",
-    "image_details":[".image/nike-pink-cup/1.webp",".image/nike-pink-cup/2.webp",".image/nike-pink-cup/3.webp",".image/nike-pink-cup/4.webp",".image/nike-pink-cup/5.webp",".image/nike-pink-cup/6.webp",".image/nike-pink-cup/7.webp",".image/nike-pink-cup/8.webp",".image/nike-pink-cup/9.webp"]
+    "image_url": "image/fd379aa75b3811412be76196a0cc05b9.jpg",
+    "image_details":["image/nike-pink-cup/1.webp","image/nike-pink-cup/2.webp","image/nike-pink-cup/3.webp","image/nike-pink-cup/4.webp","image/nike-pink-cup/5.webp","image/nike-pink-cup/6.webp","image/nike-pink-cup/7.webp","image/nike-pink-cup/8.webp","image/nike-pink-cup/9.webp"]
   }
 ]
