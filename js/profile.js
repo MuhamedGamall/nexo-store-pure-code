@@ -1,5 +1,5 @@
-usernameProfile.innerHTML = localStorage.username;
-descriptionProfile.innerHTML = localStorage.descriptionProfile;
+usernameProfile.innerHTML = localStorage.username; 
+descriptionProfile.innerHTML = localStorage.descriptionProfile||" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis at,hic aut consequuntur cupiditate architecto, magnam accusantium repellat praesentium, molestias voluptas cumque omnis nam voluptate. Nulla porro sequi ex? Molestiae!"
 emailProfile.innerHTML = localStorage.mail;
 passProfile.innerHTML =
   "Password: " + String(localStorage.password).replace(/\w/g, "*");
@@ -44,9 +44,9 @@ function edit() {
   <input class="changePass  inpt" type="password" name="pass" placeholder="New Password"  minlength="4"  maxlength="20"/>
   <label for="uploadFile" class ='changePhoto'> Change Photo</label>
   `;
-    descriptionProfile.innerHTML = `
+  descriptionProfile.innerHTML =`
   <input class="changeDescription inpt" placeholder="New discrption"/>
-  `;
+  `
     let changeName = document.querySelector(".changeName");
     let changeMail = document.querySelector(".changeMail");
     let changePass = document.querySelector(".changePass");
@@ -63,7 +63,8 @@ function edit() {
     changeName.value = localStorage.username;
     changeMail.value = localStorage.mail;
     changePass.value = localStorage.password;
-    changeDescription.value = localStorage.descriptionProfile;
+    changeDescription.value = localStorage.descriptionProfile||" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis at,hic aut consequuntur cupiditate architecto, magnam accusantium repellat praesentium, molestias voluptas cumque omnis nam voluptate. Nulla porro sequi ex? Molestiae!"
+    
   } else {
     location.href = "../html/login.html";
   }
@@ -82,19 +83,18 @@ function save(Event) {
       changeName.value.trim() ||
       changeMail.value.trim() ||
       changePass.value.trim() ||
-      changePass.value.trim() ||
+      changePass.value.trim()||
       changeDescription.value.trim()
     ) {
       localStorage.username = changeName.value.trim() || localStorage.username;
       localStorage.mail = changeMail.value.trim() || localStorage.mail;
       localStorage.password = changePass.value.trim() || localStorage.password;
-      localStorage.descriptionProfile =
-        changeDescription.value.trim() || localStorage.descriptionProfile;
+      localStorage.descriptionProfile = changeDescription.value.trim() || localStorage.descriptionProfile;
       passProfile.innerHTML =
         "Password: " + String(localStorage.password).replace(/\w/g, "*");
       usernameProfile.innerHTML = localStorage.username;
       emailProfile.innerHTML = localStorage.mail;
-      descriptionProfile.innerHTML = localStorage.descriptionProfile;
+      descriptionProfile.innerHTML = localStorage.descriptionProfile||"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis at,hic aut consequuntur cupiditate architecto, magnam accusantium repellat praesentium, molestias voluptas cumque omnis nam voluptate. Nulla porro sequi ex? Molestiae!"
     }
 
     usernameProfile.style.display = "block";
@@ -105,7 +105,7 @@ function save(Event) {
     saveBtn.style.display = "none";
     inputEdit.style.display = "none";
   } else {
-    location.href = "../html/login.html";
+    location.href = "/html/login.html";
   }
 }
 
