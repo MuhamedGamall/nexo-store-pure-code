@@ -44,7 +44,7 @@ function closeAndOpenCartMenu(Event) {
     overlayCart.style.display = "none";
   }
 }
-
+ 
 function emptyMenusAction() {
   setTimeout(() => {
     cartBagEmpty.style.display =
