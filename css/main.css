@@ -183,7 +183,8 @@ nav #userBox i,
   color: black;
 }
 @media (max-width: 992px) {
-  nav #userBox i ,#userBox a {
+  nav #userBox i,
+  #userBox a {
     font-size: 20px;
   }
 }
