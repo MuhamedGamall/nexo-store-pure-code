@@ -95,7 +95,7 @@ function addToFevorite(item) {
   drawFevoriteMenu(fevoriteData);
   countFevorite();
   emptyMenusAction();
-}
+} 
 // function draw Cart Menu
 function drawFevoriteMenu(Data) {
   let myItems = Data.map((el, i) => {
