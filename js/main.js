@@ -61,7 +61,7 @@ function emptyMenusAction() {
 emptyMenusAction();
 
 // fetch data
-fetch("../js/data.json")
+fetch("https://js/data.json")
   .then((response) => {
     return response.json();
   })
