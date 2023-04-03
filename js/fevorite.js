@@ -54,7 +54,7 @@ function addToFevorite(item) {
   } else {
     location.href = "html/login.html";
   }
-} 
+}
 
 // function draw Cart Menu
 function drawFevoriteMenu(Data) {
@@ -69,7 +69,7 @@ function drawFevoriteMenu(Data) {
     </div>
     <div class="description">
       <h4>${el.brand.split(" ").slice(0, 6).join(" ")}</h4>
-      <h5>Price: $${el.price}</h5>
+      <h5>Price: $${el.price}</h5>  
       <p class="rate">
       <i class="fa-solid fa-star"></i>${el.rate}
       <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
