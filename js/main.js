@@ -88,7 +88,7 @@ function drawContent(response) {
       el.image_details[0]
     }' data-origenl='${el.image_url}'>
       <div class="actionBtns">
-      <a href="../html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+      <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
       })'></i></a>
       <i class="fa-solid fa-cart-plus" onclick = 'addToCart(${el.id})'></i>

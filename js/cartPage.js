@@ -137,12 +137,7 @@ function removeFevoriteItem(item) {
   localStorage.setItem("fevoriteItems", JSON.stringify(fevoriteData));
   localStorage.setItem("cartItems", JSON.stringify(myChossenProducts));
   localStorage.setItem("allData", JSON.stringify(myAllData));
-  // if (fevoriteData.length == 0) {
-  //   fevoriteMenu.classList.remove("open");
-  //   fevoriteMenu.classList.add("remove");
-  //   document.body.style.cssText = "overflow: visible;";
-  //   overlay.style.display = "none";
-  // }
+
   drawFevoriteMenu(fevoriteData);
   countFevorite();
   drawCartPage(myChossenProducts);
