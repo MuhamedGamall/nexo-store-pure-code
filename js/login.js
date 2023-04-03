@@ -14,7 +14,7 @@ function saveData(Event) {
     errorMessage.style.display = "none";
     inputs.forEach((el) => (el.value = ""));
     setTimeout(() => {
-      location.href = "/html/home.html";
+      location.href = "/html/index.html";
     }, 250);
   } else {
     errorMessage.style.display = "block";
