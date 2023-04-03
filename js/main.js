@@ -77,7 +77,7 @@ fetch("data.json")
 // function draw Products
 function drawContent(response) {
   let product = response.map((el, i) => {
-    return `
+    return ` 
     <div class="item" 
     data-aos-easing="linear"
     data-aos="fade-down"
