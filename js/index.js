@@ -88,7 +88,7 @@ function drawContent(response) {
       el.image_details[0]
     }' data-origenl='${el.image_url}'>
       <div class="actionBtns">
-      <a href="/html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+      <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
       })'></i></a>
       <i class="fa-solid fa-cart-plus" onclick = 'addToCart(${el.id})'></i>
@@ -114,29 +114,29 @@ function drawContent(response) {
 // function add to cart
 function addToCart(item) {
   if (localStorage.username) {
-  let chossenItem = myAllData.find((el) => el.id == item);
-  let checkChossenItem = myChossenProducts.some(
-    (el) => el.id == chossenItem.id
-  );
-  if (checkChossenItem) {
-    myChossenProducts = myChossenProducts.map((el) => {
-      if (el.id == chossenItem.id) {
-        el.count++;
-      }
-      return el;
-    });
+    let chossenItem = myAllData.find((el) => el.id == item);
+    let checkChossenItem = myChossenProducts.some(
+      (el) => el.id == chossenItem.id
+    );
+    if (checkChossenItem) {
+      myChossenProducts = myChossenProducts.map((el) => {
+        if (el.id == chossenItem.id) {
+          el.count++;
+        }
+        return el;
+      });
+    } else {
+      myChossenProducts.push(chossenItem);
+    }
+    localStorage.setItem("cartItems", JSON.stringify(myChossenProducts));
+    // draw cart menu check
+    drawCartMenu(myChossenProducts);
+    totalPrice();
+    count();
+    emptyMenusAction();
   } else {
-    myChossenProducts.push(chossenItem);
+    location = "html/login.html";
   }
-  localStorage.setItem("cartItems", JSON.stringify(myChossenProducts));
-  // draw cart menu check
-  drawCartMenu(myChossenProducts);
-  totalPrice();
-  count();
-  emptyMenusAction();
-} else {
-    location='/html/login.html'
-}
 }
 
 // function draw Cart Menu
@@ -160,7 +160,7 @@ function drawCartMenu(Data) {
       <h5>Price: $${el.price}</h5>
       <p class="rate">
       <i class="fa-solid fa-star"></i>${el.rate}
-      <a href="/html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+      <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
       })'></i></a>
       </p>
@@ -198,7 +198,7 @@ function decrementCount(item) {
     myChossenProducts.splice(item, 1);
   }
   localStorage.setItem("cartItems", JSON.stringify(myChossenProducts));
-  drawCartMenu(myChossenProducts );
+  drawCartMenu(myChossenProducts);
   totalPrice();
   count();
   emptyMenusAction();
@@ -234,7 +234,7 @@ function hoverImg(images) {
 function showDetails(item) {
   localStorage.setItem("detailsItem", item);
   setTimeout(() => {
-    location.href = "/html/itemDetails.html";
+    location.href = "html/itemDetails.html";
   }, 250);
 }
 
@@ -287,14 +287,14 @@ function filter(Event) {
         if (myContent.children.length == 0) {
           myContent.innerHTML = `<h1>NO RESULT</h1>`;
           categoryCount(0);
-          sortingPriceBtn.style.display = "none"
+          sortingPriceBtn.style.display = "none";
         }
       }, 500);
       megaMenuBar.classList.remove("open");
       megaMenuBar.classList.add("close");
       document.body.style.cssText = "overflow: visible;";
       overlayMegaMenu.style.display = "none";
-      sortingPriceBtn.style.display = "flex"
+      sortingPriceBtn.style.display = "flex";
     }
     searchBtn.forEach(
       (el) => (el.style.cssText = "opacity:1;user-select:inherit;")
@@ -304,7 +304,6 @@ function filter(Event) {
 // function sort data
 document.addEventListener("click", sortData);
 function sortData(Event) {
-
   if (Event.target.classList.contains("sortingPrice")) {
     if (sortMenu.classList.contains("off")) {
       sortMenu.classList.toggle("on");
@@ -349,4 +348,3 @@ function closeOpenMegaMenu(Event) {
     overlayMegaMenu.style.display = "none";
   }
 }
-

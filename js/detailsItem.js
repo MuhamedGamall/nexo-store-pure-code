@@ -211,7 +211,7 @@ function addToCart(item) {
     totalPrice();
     emptyMenusAction();
   } else {
-    location = "/html/login.html";
+    location = "html/login.html";
   }
 }
 
@@ -243,7 +243,7 @@ function addToFevorite(item) {
     drawFevoriteMenu(fevoriteData);
     emptyMenusAction();
   } else {
-    location = "/html/login.html";
+    location = "html/login.html";
   }
 }
 
@@ -291,7 +291,7 @@ function drawFevoriteMenu(Data) {
       <h5>Price: $${el.price}</h5>
       <p class="rate">
       <i class="fa-solid fa-star"></i>${el.rate}  
-        <a href="/html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+        <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
           el.id
         })'></i></a>
       </p>
@@ -325,7 +325,7 @@ function drawCartMenu(Data) {
       <h5>Price: $${el.price}</h5>
       <p class="rate">
       <i class="fa-solid fa-star"></i>${el.rate}
-      <a href="/html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
+      <a href="html/itemDetails.html"><i class="fa-regular fa-eye" onclick ='showDetails(${
         el.id
       })'></i></a>
       </p>
@@ -427,6 +427,6 @@ totalPrice();
 function showDetails(item) {
   localStorage.setItem("detailsItem", item);
   setTimeout(() => {
-    location.href = "/html/itemDetails.html";
+    location.href = "html/itemDetails.html";
   }, 250);
 }
