@@ -33,7 +33,7 @@ function drawCartPage(Data) {
     return `
 		<div class="item"  data-aos='fade-left'>
 		<div class="image">
-    <img src="${el.image_url}" alt="" />
+    <img src="../${el.image_url}" alt="" />
 		</div>
 		<div class="plusOrMinus">
     <i class="fa-solid fa-plus plus" onclick='incrementCount(${i})'></i>
@@ -103,7 +103,7 @@ function drawFevoriteMenu(Data) {
     <div class="item">
     <div class="image">
       <img
-        src="${el.image_url}"
+        src="../${el.image_url}"
         alt=""
       />
     </div>

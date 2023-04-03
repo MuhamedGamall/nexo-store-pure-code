@@ -1,5 +1,5 @@
-usernameProfile.innerHTML = localStorage.username; 
-descriptionProfile.innerHTML = localStorage.descriptionProfile||""
+usernameProfile.innerHTML = localStorage.username;
+descriptionProfile.innerHTML = localStorage.descriptionProfile || "";
 emailProfile.innerHTML = localStorage.mail;
 passProfile.innerHTML =
   "Password: " + String(localStorage.password).replace(/\w/g, "*");
@@ -44,9 +44,9 @@ function edit() {
   <input class="changePass  inpt" type="password" name="pass" placeholder="New Password"  minlength="4"  maxlength="20"/>
   <label for="uploadFile" class ='changePhoto'> Change Photo</label>
   `;
-  descriptionProfile.innerHTML =`
+    descriptionProfile.innerHTML = `
   <input class="changeDescription inpt" placeholder="New discrption"/>
-  `
+  `;
     let changeName = document.querySelector(".changeName");
     let changeMail = document.querySelector(".changeMail");
     let changePass = document.querySelector(".changePass");
@@ -63,8 +63,7 @@ function edit() {
     changeName.value = localStorage.username;
     changeMail.value = localStorage.mail;
     changePass.value = localStorage.password;
-    changeDescription.value = localStorage.descriptionProfile || ""
-    
+    changeDescription.value = localStorage.descriptionProfile || "";
   } else {
     location.href = "../html/login.html";
   }
@@ -83,18 +82,19 @@ function save(Event) {
       changeName.value.trim() ||
       changeMail.value.trim() ||
       changePass.value.trim() ||
-      changePass.value.trim()||
+      changePass.value.trim() ||
       changeDescription.value.trim()
     ) {
       localStorage.username = changeName.value.trim() || localStorage.username;
       localStorage.mail = changeMail.value.trim() || localStorage.mail;
       localStorage.password = changePass.value.trim() || localStorage.password;
-      localStorage.descriptionProfile = changeDescription.value.trim() || localStorage.descriptionProfile||''
+      localStorage.descriptionProfile =
+        changeDescription.value.trim() || localStorage.descriptionProfile || "";
       passProfile.innerHTML =
         "Password: " + String(localStorage.password).replace(/\w/g, "*");
       usernameProfile.innerHTML = localStorage.username;
       emailProfile.innerHTML = localStorage.mail;
-      descriptionProfile.innerHTML = localStorage.descriptionProfile || " "
+      descriptionProfile.innerHTML = localStorage.descriptionProfile || " ";
     }
     usernameProfile.style.display = "block";
     emailProfile.style.display = "block";
@@ -189,7 +189,7 @@ function drawCartMenu(Data) {
     </div>
     <div class="image">
       <img
-        src="${el.image_url}"
+        src="../${el.image_url}"
         alt=""
       />
     </div>
@@ -218,7 +218,7 @@ function drawFevoriteMenu(Data) {
     <div class="item">
     <div class="image">
       <img
-        src="${el.image_url}"
+        src="../${el.image_url}"
         alt=""
       />
     </div>

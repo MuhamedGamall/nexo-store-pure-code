@@ -33,17 +33,17 @@ let productDetails = myAllData.filter((el) => el.id == item);
 function drawSlider(chossenItem) {
   let sideImages = chossenItem.map((el) => {
     return `
-    <li><img src="${el.image_url}" alt=""/></li>
+    <li><img src="../${el.image_url}" alt=""/></li>
     `;
   });
   let allImages = chossenItem[0].image_details.map((el) => {
     return `
-    <li><img src="${el}" alt="" class='allImages'/></li>
+    <li><img src="../${el}" alt="" class='allImages'/></li>
     `;
   });
   let image = chossenItem.map((el) => {
     return `
-    <img src="${el.image_url}" alt="" />
+    <img src="../${el.image_url}" alt="" />
     <div class="control">
       <i class="fa-solid fa-angle-left previous" onclick = 'nextOrPrev(${false})'></i>
       <i class="fa-solid fa-angle-right next" onclick = 'nextOrPrev(${true})'></i>
@@ -282,7 +282,7 @@ function drawFevoriteMenu(Data) {
     <div class="item">
     <div class="image">
       <img
-        src="${el.image_url}"
+        src="../${el.image_url}"
         alt=""
       />
     </div>
@@ -316,7 +316,7 @@ function drawCartMenu(Data) {
     </div>
     <div class="image">
       <img
-        src="${el.image_url}"
+        src="../${el.image_url}"
         alt=""
       />
     </div>
