@@ -209,6 +209,6 @@ totalPrice();
 function showDetails(item) {
   localStorage.setItem("detailsItem", item);
   setTimeout(() => {
-    location.href = "html/itemDetails.html";
+    location.href = "../html/itemDetails.html";
   }, 250);
 }
