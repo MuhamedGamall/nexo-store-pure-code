@@ -391,7 +391,7 @@ function removeItem(item) {
 /// decrement Count quantity item
 function decrementCount(item) {
   let findItem = myChossenProducts.find((_, i) => i == item);
-  if (findItem.count-- == 1) { 
+  if (findItem.count-- == 1) {
     myChossenProducts.splice(item, 1);
   }
   addToCartVar.innerHTML = myChossenProducts.some(
