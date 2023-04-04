@@ -101,6 +101,7 @@ ul {
   z-index: 1000;
   border-block: 1px solid #eee;
   background-color: #ffffffde;
+  margin-bottom: 10px;
 }
 .container {
   /* width: 800px; */
@@ -1245,7 +1246,7 @@ nav i:hover {
 .detailsItems .content .contentSlider {
   display: flex;
   gap: 20px;
-  flex: 0.7;
+  flex: 0.8;
 }
 .detailsItems .content .imagesContainer {
   overflow-y: auto;
