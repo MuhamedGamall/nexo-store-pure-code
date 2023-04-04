@@ -540,11 +540,13 @@ nav i:hover {
   width: 100%;
   gap: 20px;
 }
+
 .contentGrid .item {
   background-color: white;
   border-radius: 3px;
   transition: 0.2s;
   overflow: hidden;
+  height: fit-content;
 }
 .contentGrid .item:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,

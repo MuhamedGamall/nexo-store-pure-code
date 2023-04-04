@@ -82,6 +82,7 @@ function drawContent(response) {
     data-aos-easing="linear"
     data-aos="fade-down"
     data-aos-anchor-placement="bottom-bottom"
+    style ='transform:translate3d(0,5px,0) !important;'
     >
     <div class="image">
       <img class='myimg' id='${i}' src="${el.image_url}" alt="" data-hover='${
